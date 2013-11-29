@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo puppet apply /home/ubuntu/puppet/manifests/site.pp --modulepath=/home/ubuntu/puppet/modules/ $*
+sudo puppet apply /Users/gsoeldner/MyApps/puppet/manifests/site.pp --modulepath=/Users/gsoeldner/MyApps/puppet/modules/ $*
