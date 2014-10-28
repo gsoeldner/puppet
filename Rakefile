@@ -1,4 +1,4 @@
-SSH = 'ssh -A -i ~/git/bitfield/bitfield.pem -l ubuntu'
+SSH = 'ssh -A -i ~/git/centOS.priv -l gsoeldner'
 REPO = "git@github.com:bitfield/cookbook.git"
 
 desc "Run puppet on ENV['CLIENT']"
