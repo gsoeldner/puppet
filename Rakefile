@@ -20,7 +20,7 @@ sudo yum install puppet && \
 sudo chkconfig puppet on && \
 echo -e \"Host github.com\n\tStrictHostKeyChecking no\n\" >> ~/.ssh/config && \
 git clone #{REPO} puppet && \
-sudo puppet apply --modulepath=/home/gsoedner/puppet/modules /home/gsoeldner/puppet/manifests/site.pp
+sudo puppet apply --modulepath=/home/gsoeldner/puppet/modules /home/gsoeldner/puppet/manifests/site.pp
 BOOTSTRAP
   sh "#{SSH} #{client} '#{commands}'"
 end
